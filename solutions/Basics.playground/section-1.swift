@@ -7,15 +7,13 @@ myVariable = 50
 let myConstant = 42
 //myConstant = 50
 
-
-
-let individualScores = [75, 43, 103, 87, 12]
-var teamScore = 0
-for score in individualScores {
-    if score > 50 {
-        teamScore += 3
-    } else {
-        teamScore += 1
+let scores = [75, 52, 93, 87, 41, 83]
+var totalPassing = 0
+for score in scores {
+    if score >= 60 {
+        totalPassing++
     }
 }
-teamScore
+totalPassing
+
+println("\(totalPassing) passed out of \(scores.count) students")
