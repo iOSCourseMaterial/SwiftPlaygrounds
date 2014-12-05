@@ -1,19 +1,8 @@
-// Playground - noun: a place where people can play
 
 import UIKit
 
-var x = 7
-//var x : Float = 7
-let dave = "Dave"
-//dave = "Bob"
-
-// Optionals
-var optionalFloat : Float?
-var requiredFloat : Float
-println("optionalFloat = \(optionalFloat)")
-//println("requiredFloat = \(requiredFloat)")
-
 // Optionals with forced unwrapping
+let dave = "Dave"
 var ten = "10"
 var optionalThatIsNil : Int? = dave.toInt()
 var optionalThatNotIsNil : Int? = ten.toInt()
