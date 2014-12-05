@@ -2,12 +2,13 @@
 
 // Unicode can be used in a String
 let aTotallyAcceptableString = "Hello 🐞🗿🐭🐯🚂🐊🐙"
-var myStr = "I love to play 🏈"
+var myStr = "I love to play 🏈!"
 var mice = "🐭🐭🐭🐭🐭"
 var cat = "🐯"
-println("My \(cat) loves to chase \(mice) around the 🐊")
+println("My \(cat) loves to chase \(mice) around the 🏡")
 
 myStr[advance(myStr.startIndex, 15)]
+countElements(mice)
 
 
 // Unicode can also be used AS the variable name.
