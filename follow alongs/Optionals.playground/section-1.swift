@@ -13,3 +13,24 @@ let dave = "Dave"
 
 // Optionals with forced unwrapping
 
+
+
+
+
+
+
+
+
+// Views in a Playground + Optional Chaining
+
+
+
+
+
+
+
+
+// Optional Binding
+
+
+

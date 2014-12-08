@@ -24,8 +24,11 @@ let name = "Dave"
 
 
 
-// Finding a string - a bit harder than other languages
+// Finding a String within a String
 
+
+
+// Finding a Character within a String
 
 
 
