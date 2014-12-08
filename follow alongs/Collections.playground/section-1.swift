@@ -31,7 +31,7 @@ import UIKit
 // So, so, SO.. many things you could do with arrays...
 var randomAges = [Int]()
 for i in 0..<100 {
-    randomAges.append(Int(arc4random()) % 90)
+    randomAges.append(Int(arc4random_uniform(90)))
 }
 var teenagers = randomAges.filter({
     return $0 > 12 && $0 < 20

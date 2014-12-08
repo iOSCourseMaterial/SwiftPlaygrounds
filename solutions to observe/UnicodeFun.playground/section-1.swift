@@ -10,13 +10,16 @@ println("My \(cat) loves to chase \(mice) around the 🏡")
 myStr[advance(myStr.startIndex, 15)]
 countElements(mice)
 
+var someFisherFavorites = "🚁🐴🐇🐢🐱🐌🐒🐞🐫🐠🐬🐩🐶🐰🐼⛄🌸⛅🐸🐳❄❤🐝🌺🌼🌽🍌🍎🍡🏡🌻🍉🍒🍦👠🐧👛🐛🐘🐨🎆🎇🌈🌅🌇🌉🌃🌄⛺⛲🚢😃🐻🐹🐲🐊🐙🌌🌋🗽"
 
-// Unicode can also be used AS the variable name.
-let π = 3.14159
+
+// Unicode can also be used as the VARIBALE name.
+let π = 3.14159, r = 4.0
+let circumference = 2 * π * r
 var 😄 = "Happy"
 println("I'm feeling \(😄)")
 
-var 🚶 = "Walker"
-var 🇺🇸 = "America"
-var strings = [🇺🇸,🚶,😄]
+var 🚶 = "Person"
+var 🇺🇸 = "American"
+var strings = [😄, 🇺🇸, 🚶]
 
