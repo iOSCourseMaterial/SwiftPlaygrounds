@@ -8,7 +8,7 @@ var cat = "🐯"
 println("My \(cat) loves to chase \(mice) around the 🏡")
 
 myStr[advance(myStr.startIndex, 15)]
-countElements(mice)
+count(mice)
 
 var someFisherFavorites = "🚁🐴🐇🐢🐱🐌🐒🐞🐫🐠🐬🐩🐶🐰🐼⛄🌸⛅🐸🐳❄❤🐝🌺🌼🌽🍌🍎🍡🏡🌻🍉🍒🍦👠🐧👛🐛🐘🐨😃🐻🐹🐲🐊🐙"
 
