@@ -1,8 +1,8 @@
 // We already know about constants vs variables but there is another choice always present.
 var x = 7
-var f : Float = 7
+var f: Float = 7
 let dave = "Dave"
-//dave = "Bob"
+//dave = "Bob"  // Would cause an error
 
 
 // Optionals
@@ -12,6 +12,7 @@ let dave = "Dave"
 
 
 // Optionals with forced unwrapping
+
 
 
 
@@ -31,6 +32,5 @@ let dave = "Dave"
 
 
 // Optional Binding
-
 
 
