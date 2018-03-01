@@ -2,7 +2,7 @@ import Foundation
 
 let mice = "🐭🐭🐭🐭🐭"
 let cat = "🐱"
-let dog : Character = "🐶"
+let dog = "🐶"
 var myStr = "My \(cat) loves to chase \(mice) around the 🏡"
 
 
@@ -21,7 +21,7 @@ myStr.removeSubrange(myStr.index(myStr.startIndex, offsetBy: 10)...myStr.index(m
 // String to arrays of Strings broken by spaces (and back).
 var myArray = myStr.components(separatedBy: " ")
 myArray[3] = "🌳"
-myArray.insert("🐦", at: 1)
+myArray.insert(dog, at: 1)
 myArray
 myStr = myArray.map({"\($0)"}).joined(separator: " ") + "!"
 myStr

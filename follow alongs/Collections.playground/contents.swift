@@ -28,13 +28,13 @@ import UIKit
 
 // So, so, SO.. many things you could do with arrays...
 var randomAges = [Int]()
-for i in 0..<100 {
+for _ in 0..<100 {
     randomAges.append(Int(arc4random_uniform(90)))
 }
 var teenagers = randomAges.filter({
     return $0 > 12 && $0 < 20
 })
-teenagers.sort({
+teenagers.sorted(by: {
     return $0 < $1
 })
 
@@ -45,7 +45,7 @@ elements["C"]!
 elements["Z"]
 for (symbol, name) in elements {
     if symbol == "H" || symbol == "O" {
-        println("\(name) is present in water.")
+        print("\(name) is present in water.")
     }
 }
 
@@ -55,4 +55,3 @@ var tuple = ("item1", "item2", "item3", "item4")
 tuple.2
 var namedTuple = (first : "Dave", last : "Fisher")
 namedTuple.last
-
