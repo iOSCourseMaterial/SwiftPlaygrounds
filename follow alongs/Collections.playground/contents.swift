@@ -1,6 +1,7 @@
 import UIKit
 
 // Basics for arrays
+var names = ["Dave", "Kristy", "McKinley", "Keegan", "Bowen", "Neala"]
 
 
 
@@ -10,8 +11,6 @@ import UIKit
 
 
 
-// contains is one of many poorly documented new Swift (standard library) functions:
-// http://practicalswift.com/2014/06/14/the-swift-standard-library-list-of-built-in-functions/
 
 // Appending values
 

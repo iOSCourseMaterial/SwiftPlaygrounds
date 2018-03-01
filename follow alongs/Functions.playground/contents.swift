@@ -1,4 +1,3 @@
-
 // Basic function
 
 
@@ -7,7 +6,7 @@
 
 
 //stringRepeater("Ho! ", 3)
-
+//stringRepeater("New York ", 2)
 
 
 
