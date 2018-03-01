@@ -4,7 +4,7 @@ var f: Float = 7
 let dave = "Dave"
 //dave = "Bob"  // Would cause an error
 
-
+// Part 1.
 // Optionals
 
 
@@ -22,6 +22,7 @@ let dave = "Dave"
 
 
 
+// Part 2.
 // Views in a Playground + Optional Chaining
 
 
@@ -34,3 +35,10 @@ let dave = "Dave"
 // Optional Binding
 
 
+
+
+
+
+
+
+// Implicitly Unwrapped Optionals

@@ -1,5 +1,4 @@
 import Foundation
-//import UIKit
 
 let mice = "🐭🐭🐭🐭🐭"
 let cat = "🐱"
@@ -8,24 +7,28 @@ var myStr = "My \(cat) loves to chase \(mice) around the 🏡"
 
 
 // Get a Character or range substring
-myStr[advance(myStr.startIndex, 3)]
-myStr.substringWithRange(advance(myStr.startIndex, 3)...advance(myStr.startIndex, 20))
-myStr.substringFromIndex(advance(myStr.startIndex, 24))
+myStr[myStr.index(myStr.startIndex, offsetBy: 3)]
+myStr[myStr.index(myStr.startIndex, offsetBy: 3)...myStr.index(myStr.startIndex, offsetBy: 20)]
+myStr[myStr.index(myStr.startIndex, offsetBy: 24)]
 
 // Inserting and removing characters
-myStr.splice([dog], atIndex: advance(myStr.startIndex, 3))
-myStr.removeAtIndex(advance(myStr.startIndex, 4))
+//myStr.splice([dog], atIndex: myStr.index(myStr.startIndex, offsetBy: 3))
+myStr.remove(at: myStr.index(myStr.startIndex, offsetBy: 3))
+myStr.remove(at: myStr.index(myStr.startIndex, offsetBy: 3))
 myStr
-myStr.removeRange(advance(myStr.startIndex, 10)...advance(myStr.startIndex, 31))
+myStr.removeSubrange(myStr.index(myStr.startIndex, offsetBy: 10)...myStr.index(myStr.startIndex, offsetBy: 31))
 
 // String to arrays of Strings broken by spaces (and back).
-var myArray = myStr.componentsSeparatedByString(" ")
-myArray[3] = "my"
-myStr = " ".join(myArray)
+var myArray = myStr.components(separatedBy: " ")
+myArray[3] = "🌳"
+myArray.insert("🐦", at: 1)
+myArray
+myStr = myArray.map({"\($0)"}).joined(separator: " ") + "!"
+myStr
 
 // String to an array of Characters (and back).
 var stringAsCharacterArray = Array(myStr)
-stringAsCharacterArray[stringAsCharacterArray.count - 1] = "🐱"
+stringAsCharacterArray[stringAsCharacterArray.count - 2] = "🐱"
 stringAsCharacterArray
 myStr = String(stringAsCharacterArray)
 

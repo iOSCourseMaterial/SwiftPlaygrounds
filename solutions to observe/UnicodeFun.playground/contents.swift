@@ -5,10 +5,12 @@ let aTotallyAcceptableString = "Hello 🐞🗿🐭🐯🚂🐊🐙"
 var myStr = "I love to play 🏈!"
 var mice = "🐭🐭🐭🐭🐭"
 var cat = "🐯"
-println("My \(cat) loves to chase \(mice) around the 🏡")
+print("My \(cat) loves to chase \(mice) around the 🏡")
 
-myStr[advance(myStr.startIndex, 15)]
-count(mice)
+
+myStr.suffix(2).prefix(1)
+myStr[myStr.index(myStr.startIndex, offsetBy: 15)]
+mice.count
 
 var someFisherFavorites = "🚁🐴🐇🐢🐱🐌🐒🐞🐫🐠🐬🐩🐶🐰🐼⛄🌸⛅🐸🐳❄❤🐝🌺🌼🌽🍌🍎🍡🏡🌻🍉🍒🍦👠🐧👛🐛🐘🐨😃🐻🐹🐲🐊🐙"
 
@@ -17,7 +19,7 @@ var someFisherFavorites = "🚁🐴🐇🐢🐱🐌🐒🐞🐫🐠🐬🐩🐶�
 let π = 3.14159, r = 4.0
 let circumference = 2 * π * r
 var 😄 = "Happy"
-println("I'm feeling \(😄)")
+print("I'm feeling \(😄)")
 
 var 🚶 = "Person"
 var 🇺🇸 = "American"
