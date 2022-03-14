@@ -1,27 +1,4 @@
-// Basic function
-
-
-
-
-
-
-//stringRepeater("Ho! ", 3)
-//stringRepeater("New York ", 2)
-
-
-
-
-// Returning a tuple (multiple return values)
-
-
-
-
-
-
-//var collated : String, uncollated : String
-//(collated, uncollated) = stringLetterRepeater("Ow! ", 4)
-//collated
-//uncollated
+// ********************** Basic function
 
 
 
@@ -29,13 +6,32 @@
 
 
 
-// Internal/External names plus Optional parameters
 
 
 
+// stringRepeater(originalString: "Ho! ", repeatCount: 3)
+// stringRepeater(originalString: "New York ", repeatCount: 2)
 
 
+// ********************** Basic function without external argument names
+// stringRepeater("Ho! ", 3)
+// stringRepeater("New York ", 2)
 
 
-//stringDoubler("Woof! ", alternativeMultiple: 3)
-//stringDoubler("Jingle Bells! ")
+// ********************** Optional parameters
+// stringRepeater("Ho! ")
+// stringRepeater("New York ", repeatCount: 3)
+
+
+// ********************** Differenter internal and external names for arguments
+// stringRepeater("Ho! ")
+// stringRepeater("New York ", alternateCount: 3)
+
+
+// ********************** Returning multiple values
+// var example1: String
+// var example2: String
+// (example1, example2) = stringRepeater2("New York ", repeatCount: 2)
+// example1
+// example2
+
